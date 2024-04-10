@@ -68,7 +68,7 @@ $contacts = getContacts();
 
 <form method="post">
     <input type="text" name="name" placeholder="Имя" required><br>
-    <input type="tel" name="phone" placeholder="Телефон" pattern="[+][0-9]{1}-[0-9]{3}-[0-9]{3}-[0-9]{4}" required><br>
+    <input type="tel" name="phone" placeholder="Телефон" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required><br>
     <input type="submit" value="Добавить">
 </form>
 
